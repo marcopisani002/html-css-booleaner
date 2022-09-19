@@ -1,46 +1,52 @@
 
-  
-  header {
-    
-    background-color: #69a6f1;
-    color: #525c4c;
-    background-image: url('pattern.png');
-    height: 150px;
-  }
-  .logo-img {
-   width: 170px;
-   position: absolute;
-		left: 10px;/*distanza tra il margine destro di #posizionato e il padding di #contenitore*/
-		bottom: 820px;/*distanza tra il margine inferiore di #posizionato e il padding di #contenitore*/
-        
-  }
+header {
+  background-color: #69a6f1;
+  color: #525c4c;
+  background-image: url('pattern.png');
+  height: 100px;
+}
+
+.logo-img {
+  height: 50px;
+}
 
 .main-title{
-font-family: 'Georgia';
- font-size: 50px;
+  font-family: 'Georgia';
+  font-size: 50px;
+}
+.last-word{
+background-color: brown;
+  color: aqua;
 }
 .under-main{
   line-height: 0px;
   color: #525c4c;
   font: 'arial';
 }
+
 .last-main{
   color: #525c4c;
 }
+
 body{
   font-family: 'arial'
+}
+.no-space{
+
+  border-spacing: 0px;
 }
 .t-head{
   background-color: dodgerblue;
   color: #ffffff;
 }
+
 .t-row{
   background-color: rgb(49, 162, 207);
   color: #050404;
 }
+
 footer{
   line-height: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: #525c4c;
-
 }
